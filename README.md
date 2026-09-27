@@ -8,3 +8,12 @@
 <p>Invoice ID, Transaction Date, City, Store Format, Category, Brand, Sales Channel, Payment Mode, Units Sold, Cost Price, Selling Price, Stock on Hand, Reorder Level, and Lead Time.</p>
 <h4>Customer Demographics:</h4>
 <p>Customer Age, Gender, and Loyalty Status.</p>
+<h1>Key Features & Workflow:</h1>
+<h4>1)Data Cleaning & Preprocessing</h4>
+<h4>Duplicate Check:</h4><p> Verified and dropped duplicate transaction records.</p>
+<h4>Missing Value Imputation:</h4>
+<p>1)<b>Customer_Age:</b> Imputed missing values using the median age.</p>
+<p>2)<b>Customer_Gender:</b> Imputed missing entries with 'Unknown'.</p>
+
+
+
