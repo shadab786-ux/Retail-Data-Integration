@@ -12,8 +12,17 @@
 <h4>1)Data Cleaning & Preprocessing</h4>
 <h4>Duplicate Check:</h4><p> Verified and dropped duplicate transaction records.</p>
 <h4>Missing Value Imputation:</h4>
-<p>1)<b>Customer_Age:</b> Imputed missing values using the median age.</p>
-<p>2)<b>Customer_Gender:</b> Imputed missing entries with 'Unknown'.</p>
+<p>a)<b>Customer_Age:</b> Imputed missing values using the median age.</p>
+<p>b)<b>Customer_Gender:</b> Imputed missing entries with 'Unknown'.</p>
+<h4>Datetime Conversion:</h4><p>Parsed invoice timestamps into dedicated temporal features (Year, Month, Month_Name, Day, Day_Name).</p>
+<h4>Financial Metric Validation:</h4><p>Calculated and cross-verified raw dataset figures using the following logic:</p>
+<p>a)Calculated Revanue= Units x Selling Price
+<br>
+b)Calculated cost=Units x Cost price
+<br>
+c)Calculated Margin=Calculated Revanue - Claculated Cost</p>
+
+
 
 
 
